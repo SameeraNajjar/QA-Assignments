@@ -71,15 +71,15 @@ public class RecipeBook {
 	 * @param newRecipe
 	 * @return String
 	 */
-	public synchronized String editRecipe(int recipeToEdit, Recipe newRecipe) {
-		if (recipeArray[recipeToEdit] != null) {
-			String recipeName = recipeArray[recipeToEdit].getName();
-			newRecipe.setName("");
-			recipeArray[recipeToEdit] = newRecipe;
-			return recipeName;
-		} else {
-			return null;
-		}
-	}
+//	public synchronized String editRecipe(int recipeToEdit, Recipe newRecipe) {
+//		if (recipeArray[recipeToEdit] != null) {
+//			String recipeName = recipeArray[recipeToEdit].getName();
+//			newRecipe.setName("");
+//			recipeArray[recipeToEdit] = newRecipe;
+//			return recipeName;
+//		} else {
+//			return null;
+//		}
+//	}
 
 }
